@@ -1,2 +1,76 @@
-# 2021_Lab_Study
-Github for cosbi summer lab study,every participant can store your answer of Leetcode problem here.
+###### tags: `讀書會策畫`
+# 讀書會
+*不想看前言可以直接跳到[進度規劃](#%E9%80%B2%E5%BA%A6%E8%A6%8F%E5%8A%83%E5%BE%85%E8%A8%8E%E8%AB%96)*
+
+基於今年寒假的經驗，希望最近能夠再嘗試一次讀書會，目前的方向訂為兩個:**資料結構**與**演算法**。
+
+執行方式預想分成兩個部分，知識方面為了方便上手先提供中文的開放式課程一起學習，目前找到的資源有:
+
+* 資結</br>
+[台大電機 于天立:計算機概論(C/C++)](http://ocw.aca.ntu.edu.tw/ntu-ocw/ocw/cou/101S210/10)</br>
+[陽交大資工 彭文志:資料結構(C++)](https://ocw.nctu.edu.tw/course_detail-v.php?bgid=9&gid=0&nid=412)</br>
+[Data-Structure-Algorithm-Programs](https://github.com/skjha1/Data-Structure-Algorithm-Programs)
+
+* 演算法</br>
+[台大電機 于天立:計算機概論(C/C++)](http://ocw.aca.ntu.edu.tw/ntu-ocw/ocw/cou/101S210/10)</br>
+[陽交大電子 江蕙如:演算法(C/C++)](https://ocw.nctu.edu.tw/course_detail.php?bgid=8&gid=0&nid=493)
+
+以上資源以中文為主，之後會再找找其他國外資源，或是自行搜尋
+**極力募集不錯的資源**
+
+練習部分會找[Leet code](https://leetcode.com/)來一起練習，第一次會找兩題**medium**的題目來試水溫看大家的完成狀況決定新題目的速度，語言沒有硬性規定但大概會是C或Python，然後定時開線上會議口頭分享解法，時間目前考慮晚上7~9點，星期幾的話在line投票決定
+
+另外配合Leet code練習也會讓大家能夠熟悉git這套軟體，目前計畫開一個專用的github，每個參加的人一個分支，然後每題一個共同名稱的資料夾大家解完題目後請在資料夾內放入檔案:
+
+*(你的英文名子)_{第幾題}.md*
+
+這樣在合併的時候大家就能夠擁有彼此的答案。
+
+MD檔內寫下你的解題邏輯最後附上你的程式碼，最好連解題過程所搜尋的資源都可以提供，MD檔可以透過[HackMD](https://hackmd.io/)打草稿，超連結或插入圖片等都很方便，程式碼的部分可以透過以下格式輸入:
+```
+    ```{你要的程式語言}=
+        //你的程式碼
+    ```
+```
+就可以顯示成該語言的樣子了，例如:
+* C
+```c
+printf("Hello World!")
+```
+* python
+```python
+print("Hello World!")
+```
+
+不過MD檔的部分因為不同網站格式會有點落差，如果完全沿用HackMD的話倒是上傳github會有小地方跑掉，之後我會整理一些我發現的落差提供給大家
+
+最後再提供一些git及md檔的教學網頁
+**git**
+[為你自己學 Git](https://gitbook.tw/)(教學鏈結在網頁下面)
+[連猴子都能懂的Git入門指南](https://backlog.com/git-tutorial/tw/intro/intro2_1.html)
+
+**MD檔(MarkDown)**
+[Markdown - 易編易讀，優雅的寫文吧！](https://ithelp.ithome.com.tw/articles/10203758)
+
+## (暫定)試水溫問題
+* 演算法
+EX1.[Greatest Sum Divisible by Three](https://leetcode.com/problems/greatest-sum-divisible-by-three/)
+* 資料結構
+EX2.[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
+
+## 保留(先不要做)
+[Roman to Integer](https://leetcode.com/problems/integer-to-roman/)
+
+[Interleaving String](https://leetcode.com/problems/interleaving-string/)
+
+## 進度規劃(待討論)
+參加人員:
+* 7/19~7/25
+* 7/26~8/1
+* 8/2~8/8
+* 8/9~8/15
+* 8/16~8/22
+* 8/23~8/29
+* 8/29~9/4
+* 9/5~9/11
+* 9/12~9/15(預計開學日)
