@@ -51,7 +51,7 @@ print("Hello World!")
 **MD檔(MarkDown)**
 [Markdown - 易編易讀，優雅的寫文吧！](https://ithelp.ithome.com.tw/articles/10203758)
 
-## (暫定)試水溫問題
+## 試水溫問題
 * 演算法
 EX1.[Greatest Sum Divisible by Three](https://leetcode.com/problems/greatest-sum-divisible-by-three/)
 * 資料結構
