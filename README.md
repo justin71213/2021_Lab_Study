@@ -44,12 +44,12 @@ print("Hello World!")
 不過MD檔的部分因為不同網站格式會有點落差，如果完全沿用HackMD的話倒是上傳github會有小地方跑掉，之後我會整理一些我發現的落差提供給大家
 
 最後再提供一些git及md檔的教學網頁
-**git**
-[為你自己學 Git](https://gitbook.tw/)(教學鏈結在網頁下面)
+**git**</br>
+[為你自己學 Git](https://gitbook.tw/)(教學鏈結在網頁下面)</br>
 [連猴子都能懂的Git入門指南](https://backlog.com/git-tutorial/tw/intro/intro2_1.html)
 
-**MD檔(MarkDown)**
-[Markdown - 易編易讀，優雅的寫文吧！](https://ithelp.ithome.com.tw/articles/10203758)
+**MD檔(MarkDown)**</br>
+[Markdown - 易編易讀，優雅的寫文吧！](https://ithelp.ithome.com.tw/articles/10203758)</br>
 
 ## 試水溫問題
 * 演算法
