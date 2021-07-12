@@ -43,7 +43,8 @@ print("Hello World!")
 
 不過MD檔的部分因為不同網站格式會有點落差，如果完全沿用HackMD的話倒是上傳github會有小地方跑掉，之後我會整理一些我發現的落差提供給大家
 
-最後再提供一些git及md檔的教學網頁
+最後再提供一些git及md檔的教學網頁</br>
+
 **git**</br>
 [為你自己學 Git](https://gitbook.tw/)(教學鏈結在網頁下面)</br>
 [連猴子都能懂的Git入門指南](https://backlog.com/git-tutorial/tw/intro/intro2_1.html)
