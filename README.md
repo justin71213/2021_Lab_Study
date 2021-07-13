@@ -17,7 +17,7 @@
 以上資源以中文為主，之後會再找找其他國外資源，或是自行搜尋
 **極力募集不錯的資源**
 
-練習部分會找[Leet code](https://leetcode.com/)來一起練習，第一次會找兩題**medium**的題目來試水溫看大家的完成狀況決定新題目的速度，語言沒有硬性規定但大概會是C或Python，然後定時開線上會議口頭分享解法，時間目前考慮晚上7~9點，星期幾的話在line投票決定
+練習部分會找[Leet code](https://leetcode.com/)來一起練習，第一次會找兩道題目來試水溫看大家的完成狀況決定新題目的速度與難度，語言沒有硬性規定但大概會是C或Python，然後定時開線上會議口頭分享解法，時間目前考慮晚上7~9點，星期幾的話在line投票決定
 
 另外配合Leet code練習也會讓大家能夠熟悉git這套軟體，目前計畫開一個專用的github，每個參加的人一個分支，然後每題一個共同名稱的資料夾大家解完題目後請在資料夾內放入檔案:
 
@@ -56,13 +56,14 @@ print("Hello World!")
 * 演算法
 EX1.[Greatest Sum Divisible by Three](https://leetcode.com/problems/greatest-sum-divisible-by-three/)
 * 資料結構
-EX2.[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
+EX2.[Two Sum](https://leetcode.com/problems/two-sum/)
 
 ## 保留(先不要做)
 [Roman to Integer](https://leetcode.com/problems/integer-to-roman/)
 
 [Interleaving String](https://leetcode.com/problems/interleaving-string/)
 
+[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 ## 進度規劃(待討論)
 參加人員:
 * 7/19~7/25
