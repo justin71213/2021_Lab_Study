@@ -14,9 +14,8 @@
 [台大電機 于天立:計算機概論(C/C++)](http://ocw.aca.ntu.edu.tw/ntu-ocw/ocw/cou/101S210/10)</br>
 [陽交大電子 江蕙如:演算法(C/C++)](https://ocw.nctu.edu.tw/course_detail.php?bgid=8&gid=0&nid=493)
 
-以上資源以中文為主，之後會再找找其他國外資源，或是自行搜尋</br>
-**極力募集不錯的資源**</br>
-**[Hacker Rank](https://www.hackerrank.com/interview/interview-preparation-kit)**
+以上資源以中文為主，之後會再找找其他國外資源，或是自行搜尋**極力募集不錯的資源**</br>
+
 
 練習部分會找[Leet code](https://leetcode.com/)來一起練習，第一次會找兩道題目來試水溫看大家的完成狀況決定新題目的速度與難度，語言沒有硬性規定但大概會是C或Python，然後定時開線上會議口頭分享解法，時間目前考慮晚上7~9點，星期幾的話在line投票決定
 
@@ -84,10 +83,11 @@ Search
 Dynamic Programming
 * 9/5~9/11</br>
 Stacks Queues
-* 9/12~9/15(預計開學日)
+* 9/12~9/15(預計開學日)</br>
 Graphs
 
 ## 其他資源
 [HackMD模板](https://hackmd.io/features-tw?view)</br>
 [HackMD圖示](https://graphviz.org/)</br>
-[Coding Interview University](https://github.com/jwasham/coding-interview-university)
+[Coding Interview University](https://github.com/jwasham/coding-interview-university)</br>
+[Hacker Rank](https://www.hackerrank.com/interview/interview-preparation-kit)
