@@ -14,8 +14,9 @@
 [台大電機 于天立:計算機概論(C/C++)](http://ocw.aca.ntu.edu.tw/ntu-ocw/ocw/cou/101S210/10)</br>
 [陽交大電子 江蕙如:演算法(C/C++)](https://ocw.nctu.edu.tw/course_detail.php?bgid=8&gid=0&nid=493)
 
-以上資源以中文為主，之後會再找找其他國外資源，或是自行搜尋
-**極力募集不錯的資源**
+以上資源以中文為主，之後會再找找其他國外資源，或是自行搜尋</br>
+**極力募集不錯的資源**</br>
+**[Hacker Rank](https://www.hackerrank.com/interview/interview-preparation-kit)**
 
 練習部分會找[Leet code](https://leetcode.com/)來一起練習，第一次會找兩道題目來試水溫看大家的完成狀況決定新題目的速度與難度，語言沒有硬性規定但大概會是C或Python，然後定時開線上會議口頭分享解法，時間目前考慮晚上7~9點，星期幾的話在line投票決定
 
@@ -65,8 +66,10 @@ EX2.[Two Sum](https://leetcode.com/problems/two-sum/)
 
 [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 ## 進度規劃(待討論)
-參加人員:
-* 7/19~7/25
+參加人員:李東恩、陳冠儒、鄧立昌、許家偉、陳致誠、吳佩芩、李祥瑋</br>
+[會議連結](https://meet.google.com/cky-emko-usd)
+* 7/19~7/25</br>
+Array
 * 7/26~8/1
 * 8/2~8/8
 * 8/9~8/15
