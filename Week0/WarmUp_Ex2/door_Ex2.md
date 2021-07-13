@@ -55,39 +55,36 @@ int *twoSum(int *nums, int numsSize, int target, int *returnSize) {
   int *result = (int *)malloc(sizeof(int) * 2);
   // create hash table
   struct bucket *ht = (struct bucket *)malloc(sizeof(struct bucket) * PRIME);
-
   init_ht(ht);
-  for (int i = 0; i < numsSize; i++) {
-    int pos = hash(target - nums[i]);
-    if (ht[pos].value == -1)
-      ht[pos].value = i;
 
-    else { // collision
-      struct bucket *new = (struct bucket *)malloc(sizeof(struct bucket));
-      new->value = i;
-      new->next = ht[pos].next;
-      ht[pos].next = new;
-    }
-  }
-  // check target match
   for (int i = 0; i < numsSize; i++) {
     int pos = hash(nums[i]);
     if (ht[pos].value == -1) // not exist
-      continue;
-    if (nums[ht[pos].value] == target - nums[i] &&
-        ht[pos].value != i) { // get answer
-      result[0] = i;
-      result[1] = ht[pos].value;
-      return result;
+    {
+      int insert_pos = hash(target - nums[i]);
+      ht[insert_pos].value = i;
     } else {
-      struct bucket *t = ht[pos].next;
-      while (t) {
-        if (nums[t->value] == target - nums[i] && t->value != i) { // get answer
-          result[0] = i;
-          result[1] = t->value;
-          return result;
-        } else
-          t = t->next;
+      if (nums[ht[pos].value] == target - nums[i] &&
+          ht[pos].value != i) { // get answer
+        result[0] = ht[pos].value;
+        result[1] = i;
+        return result;
+      } else {
+        struct bucket *t = ht[pos].next;
+        while (t) {
+          if (nums[t->value] == target - nums[i] &&
+              t->value != i) { // get answer
+            result[0] = t->value;
+            result[1] = i;
+            return result;
+          } else
+            t = t->next;
+        }
+        // collision
+        struct bucket *new = (struct bucket *)malloc(sizeof(struct bucket));
+        new->value = i;
+        new->next = ht[pos].next;
+        ht[pos].next = new;
       }
     }
   }
