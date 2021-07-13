@@ -1,1 +1,0 @@
-# 這是用來放Week2:Dictionaries & Hashmaps的地方
