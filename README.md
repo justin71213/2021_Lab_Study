@@ -70,11 +70,24 @@ EX2.[Two Sum](https://leetcode.com/problems/two-sum/)
 [會議連結](https://meet.google.com/cky-emko-usd)
 * 7/19~7/25</br>
 Array
-* 7/26~8/1
-* 8/2~8/8
-* 8/9~8/15
-* 8/16~8/22
-* 8/23~8/29
-* 8/29~9/4
-* 9/5~9/11
+* 7/26~8/1</br>
+Dictionaries & Hashmaps
+* 8/2~8/8</br>
+Sorting
+* 8/9~8/15</br>
+String Manipulation
+* 8/16~8/22</br>
+Greedy Algorithm
+* 8/23~8/29</br>
+Search
+* 8/29~9/4</br>
+Dynamic Programming
+* 9/5~9/11</br>
+Stacks Queues
 * 9/12~9/15(預計開學日)
+Graphs
+
+## 其他資源
+[HackMD模板](https://hackmd.io/features-tw?view)</br>
+[HackMD圖示](https://graphviz.org/)</br>
+[Coding Interview University](https://github.com/jwasham/coding-interview-university)
