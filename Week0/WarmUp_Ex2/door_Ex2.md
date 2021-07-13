@@ -72,11 +72,7 @@ int *twoSum(int *nums, int numsSize, int target, int *returnSize) {
 
   for (int i = 0; i < numsSize; i++) {
     int pos = hash(nums[i]);
-    if (ht[pos].value == -1) // not exist
-    {
-      int insert_pos = hash(target - nums[i]);
-      ht[insert_pos].value = i;
-    } else {
+    if (ht[pos].value != -1) {
       if (nums[ht[pos].value] == target - nums[i] &&
           ht[pos].value != i) { // get answer
         result[0] = ht[pos].value;
@@ -93,14 +89,20 @@ int *twoSum(int *nums, int numsSize, int target, int *returnSize) {
           } else
             t = t->next;
         }
-        // collision
-        struct bucket *new = (struct bucket *)malloc(sizeof(struct bucket));
-        new->value = i;
-        new->next = ht[pos].next;
-        ht[pos].next = new;
       }
+    }
+
+    int insert_pos = hash(target - nums[i]);
+    if (ht[insert_pos].value == -1)
+      ht[insert_pos].value = i;
+    else { // collision
+      struct bucket *new = (struct bucket *)malloc(sizeof(struct bucket));
+      new->value = i;
+      new->next = ht[insert_pos].next;
+      ht[insert_pos].next = new;
     }
   }
   return NULL;
 }
 ```
+![](https://i.imgur.com/mfsM4ux.png)
