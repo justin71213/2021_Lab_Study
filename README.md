@@ -86,6 +86,9 @@ Stacks Queues
 * 9/12~9/15(預計開學日)</br>
 Graphs
 
+## 讀書會記錄
+[Week0-草創討論與規劃](https://www.youtube.com/watch?v=XIGZLaiF77U)
+
 ## 其他資源
 [HackMD模板](https://hackmd.io/features-tw?view)</br>
 [HackMD圖示](https://graphviz.org/)</br>
