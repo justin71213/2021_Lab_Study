@@ -83,7 +83,7 @@ git checkout CommitID/BranchName
 ```
 checkout如果接的是BranchName會選擇該branch最新的commit位置，如果是接CommitID就會選擇到指定commit，另外checkout可以額外使用-b參數:
 ```
-git checkout NewBranchName
+git checkout -b NewBranchName
 ```
 這樣的話就會新增branch並切換到該分支
 
