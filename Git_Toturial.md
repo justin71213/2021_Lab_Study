@@ -52,6 +52,11 @@ Push與pull相反，是把本地端的commit上傳至repository，指令如下
 ```
 git push
 ```
+如果你在本地端利用branch開了一個新的分支並切換，此時會因為repository沒有該分支而不能push，此時指令會變成
+```
+git push --set-upstream origin BranchName
+```
+這樣的話就會在repository上產生該分支並push上去，之後就可以使用一般的push
 
 ## Branch
 在多人開發的過程中會對同一份程式碼進行編輯，如此一來會造成混亂，因此會利用branch產生分支，可以先理解為複製一份相同的code後在自己的線上進行開發，指令如下
