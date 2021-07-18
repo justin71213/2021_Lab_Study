@@ -25,3 +25,5 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     return ans;
 }
 ```
+## 結果
+![](https://github.com/justin71213/2021_Lab_Study/blob/XiangWei/Week0/WarmUp_Ex2/XiangWei_2/XiangWei_2.png)
