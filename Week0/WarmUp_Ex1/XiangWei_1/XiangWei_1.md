@@ -72,3 +72,8 @@ int maxSumDivThree(int* nums, int numsSize){
 }
 ```
 ## 結果
+![](https://github.com/justin71213/2021_Lab_Study/blob/XiangWei/Week0/WarmUp_Ex1/XiangWei_1/XiangWei_1.png)
+
+## 關鍵字
+1. switch case
+2. if else
