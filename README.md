@@ -68,7 +68,8 @@ EX2.[Two Sum](https://leetcode.com/problems/two-sum/)
 參加人員:李東恩、陳冠儒、鄧立昌、許家偉、陳致誠、吳佩芩、李祥瑋</br>
 [會議連結](https://meet.google.com/cky-emko-usd)
 * 7/19~7/25</br>
-Array
+Array<br>
+[HyperLink]()<br>
 * 7/26~8/1</br>
 Dictionaries & Hashmaps
 * 8/2~8/8</br>
