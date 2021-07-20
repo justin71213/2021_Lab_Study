@@ -70,7 +70,7 @@ EX2.[Two Sum](https://leetcode.com/problems/two-sum/)
 ### Array
 - 7/19~7/25
 - Exercise
-    - [HyperLink]()
+    - [LeetCode 41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
 ### Dictionaries & Hashmaps
 * 7/26~8/1</br>
 - Exercise
