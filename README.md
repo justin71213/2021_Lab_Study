@@ -65,27 +65,45 @@ EX2.[Two Sum](https://leetcode.com/problems/two-sum/)
 
 [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 ## 進度規劃(待討論)
-參加人員:李東恩、陳冠儒、鄧立昌、許家偉、陳致誠、吳佩芩、李祥瑋</br>
+參加人員: 李東恩、陳冠儒、鄧立昌、許家偉、陳致誠、吳佩芩、李祥瑋</br>
 [會議連結](https://meet.google.com/cky-emko-usd)
-* 7/19~7/25</br>
-Array<br>
-[HyperLink]()<br>
+### Array
+- 7/19~7/25
+- Exercise
+    - [HyperLink]()
+### Dictionaries & Hashmaps
 * 7/26~8/1</br>
-Dictionaries & Hashmaps
+- Exercise
+    - [HyperLink]()
+
+### Sorting
 * 8/2~8/8</br>
-Sorting
+- Exercise
+    - [HyperLink]()
+### String Manipulation
 * 8/9~8/15</br>
-String Manipulation
+- Exercise
+    - [HyperLink]()
+### Greedy Algorithm
 * 8/16~8/22</br>
-Greedy Algorithm
+- Exercise
+    - [HyperLink]()
+### Search
 * 8/23~8/29</br>
-Search
+- Exercise
+    - [HyperLink]()
+### Dynamic Programming
 * 8/29~9/4</br>
-Dynamic Programming
+- Exercise
+    - [HyperLink]()
+### Stacks & Queues
 * 9/5~9/11</br>
-Stacks Queues
+- Exercise
+    - [HyperLink]()
+### Graphs
 * 9/12~9/15(預計開學日)</br>
-Graphs
+- Exercise
+    - [HyperLink]()
 
 ## 讀書會記錄
 [Week0-草創討論與規劃](https://www.youtube.com/watch?v=XIGZLaiF77U)
