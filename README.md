@@ -106,8 +106,8 @@ EX2.[Two Sum](https://leetcode.com/problems/two-sum/)
     - [HyperLink]()
 
 ## 讀書會記錄
-[Week0-草創討論與規劃](https://www.youtube.com/watch?v=XIGZLaiF77U)
-[Week1-題目解法分享、git rebase](https://youtu.be/oE_1ZRz2XHQ)
+[Week0-草創討論與規劃](https://www.youtube.com/watch?v=XIGZLaiF77U)<br>
+[Week1-題目解法分享、git rebase](https://youtu.be/oE_1ZRz2XHQ)<br>
 
 ## 其他資源
 [HackMD模板](https://hackmd.io/features-tw?view)</br>
