@@ -71,6 +71,7 @@ EX2.[Two Sum](https://leetcode.com/problems/two-sum/)
 - 7/19~7/25
 - Exercise
     - [LeetCode 41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
+    - [LeetCode 46. Permutations](https://leetcode.com/problems/permutations/)
 ### Dictionaries & Hashmaps
 * 7/26~8/1</br>
 - Exercise
