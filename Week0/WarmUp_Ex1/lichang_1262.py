@@ -9,17 +9,33 @@ class Solution:
         """
         dp = [0, 0, 0]
         for num in nums:
-            dp2 = dp.copy()  # <--- add this line
-            for i in dp2:  # 3 cases
+            for i in dp[:]:  # 3 cases
                 dp[(num + i) % 3] = max(dp[(num + i) % 3], num + i)
         return dp[0]
 
 
 if __name__ == "__main__":
-    import time
+    # import time
 
-    nums = [3, 6, 5, 1, 8]
-    start = time.time()
-    val = Solution().maxSumDivThree(nums)
-    print("ans:", val)
-    print("running time:", start - time.time())
+    # nums = [3, 6, 5, 1, 8]
+    # start = time.time()
+    # val = Solution().maxSumDivThree(nums)
+    # print("ans:", val)
+    # print("running time: {:.4f}".format(time.time() - start))
+
+    a = [i for i in range(10)]
+
+    for i in a[:]:
+        print(i)
+        if i % 2 == 0:
+            a.remove(i)
+    print(a)
+    print("=" * 20)
+
+    a = [i for i in range(10)]
+
+    for i in a:
+        print(i)
+        if i % 2 == 0:
+            a.remove(i)
+    print(a)

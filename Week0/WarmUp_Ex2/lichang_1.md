@@ -1,10 +1,10 @@
-# EX2. Two Sum的地方
+# EX2. Two Sum
 
 ## Intro
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 
-## Method 1: O($n^2$)
+## Method 1:
 
 **Brute-force search:** 使用雙層 for 迴圈尋找符合 target 的元素。
 
@@ -22,7 +22,7 @@ def twoSum(self, nums: int, target: int):
                 return [i, j]
 ```
 
-## Method 2: O($n$)
+## Method 2:
 
 [Source](https://leetcode.com/problems/two-sum/discuss/17/Here-is-a-Python-solution-in-O(n)-time)
 
