@@ -8,7 +8,6 @@ Given n non-negative integers a1, a2, ..., an , where each represents a point at
 * 從外往內判斷
 * 以較短的柱子判斷下一根柱子要不要計算 或 兩根柱子相遇
 * 若下一根柱子比短的柱子長再判斷容量
-* 
 ``` c++
 class Solution {
 public:
