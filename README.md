@@ -73,7 +73,8 @@ EX2.[Two Sum](https://leetcode.com/problems/two-sum/)
     - [LeetCode 41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
     - [LeetCode 46. Permutations](https://leetcode.com/problems/permutations/)
     - [LeetCode 11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
-### Dictionaries & Hashmaps
+
+### Stacks & Queues
 * 7/26~8/1</br>
 - Exercise
     - [HyperLink]()
@@ -98,7 +99,7 @@ EX2.[Two Sum](https://leetcode.com/problems/two-sum/)
 * 8/29~9/4</br>
 - Exercise
     - [HyperLink]()
-### Stacks & Queues
+### Dictionaries & Hashmaps
 * 9/5~9/11</br>
 - Exercise
     - [HyperLink]()
