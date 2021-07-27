@@ -86,3 +86,7 @@ int** permute(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
   
 ## result
 ![](https://github.com/justin71213/2021_Lab_Study/blob/XiangWei/Week1_Array/XiangWei_46/result.png)
+
+## key word
+1. [指標與陣列](https://ivan7645.github.io/2017/01/11/ptr_multi_arr/)
+2. 遞迴
