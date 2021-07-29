@@ -78,6 +78,7 @@ EX2.[Two Sum](https://leetcode.com/problems/two-sum/)
 * 7/26~8/1</br>
 - Exercise
     - [LeetCode 224. Basic Calculator](https://leetcode.com/problems/basic-calculator/)
+    - [LeetCode 42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 
 ### Sorting
 * 8/2~8/8</br>
