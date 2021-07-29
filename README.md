@@ -77,7 +77,7 @@ EX2.[Two Sum](https://leetcode.com/problems/two-sum/)
 ### Stacks & Queues
 * 7/26~8/1</br>
 - Exercise
-    - [LeetCode 224. Basic Calculator](https://leetcode.com/problems/basic-calculator/)
+    - [LeetCode 227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)
     - [LeetCode 42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 
 ### Sorting
