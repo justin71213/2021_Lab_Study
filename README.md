@@ -79,6 +79,7 @@ EX2.[Two Sum](https://leetcode.com/problems/two-sum/)
 - Exercise
     - [LeetCode 227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)
     - [LeetCode 42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
+    - [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
 
 ### Sorting
 * 8/2~8/8</br>
