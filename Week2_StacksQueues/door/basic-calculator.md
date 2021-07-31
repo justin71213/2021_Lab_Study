@@ -6,16 +6,14 @@
 Implement a basic calculator to evaluate a simple expression string.
 
 The expression string contains:
-- non-negative integers
+- Integers
 - `+` operator
-- `-` operator
+- `-` operator, it could be used as a unary operation but it has to be followed by parentheses.
 - `*` operator
 - `/` operator 
 - `^` operator
 - open `(` and closing parentheses `)` 
-- empty spaces
-
-The integer division should truncate toward zero.
+- ` ` empty spaces
 
 You may assume that the given expression is always valid. All intermediate results will be in the range of [`-2147483648`, `2147483647`].
 
@@ -40,10 +38,11 @@ We will use two stacks
 Order of precedence of operations:
 
 0. `(` for out-stack
-1. `^` 
-2. `/` `*`
-3. `+` `–`
-4. `(` for in-stack, `)` for out-stack
+1. `-` for unary operation
+2. `^` 
+3. `/` `*`
+4. `+` `–`
+5. `(` for in-stack, `)` for out-stack
 
 **Algorithm:**
 
