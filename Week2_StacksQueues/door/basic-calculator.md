@@ -64,6 +64,7 @@ Once the expression iteration is completed and the operator stack is not empty, 
 
 ```c++
 #include <stack>
+using namespace std;
 typedef struct {
   string op;
   int pri_in;
@@ -80,58 +81,70 @@ class Solution {
     s += "+";
     stack<int> operand_stack;
     stack<operator_t> operator_stack;
-    string no_str = "";
+
+    int num = 0;
+    int flag_num = 0;
     for (int i = 0; i < s.length(); i++) {
       if (s[i] == ' ')  // space
         continue;
       else if ('0' <= s[i] && s[i] <= '9') {  // number
-        no_str += s[i];
+        num = 10 * num + (s[i] - '0');
+        flag_num = 1;
       } else {  // operator
-        if (no_str != "") {
-          operand_stack.push(stoi(no_str));
-          no_str = "";
+
+        if (flag_num) {
+          operand_stack.push(num);
+          flag_num = 0;
         }
+
         operator_t tmp;
         tmp.op = s[i];
         // Set priority
-        if (s[i] == ')')
-          tmp.pri_out = 4;
+        if (operand_stack.empty() && s[i] == '-')
+          tmp.pri_out = tmp.pri_in = 1;
+        else if (s[i] == ')')
+          tmp.pri_out = 5;
         else if (s[i] == '(') {
           tmp.pri_out = 0;
-          tmp.pri_in = 4;
-        } else if (s[i] == '+' || s[i] == '-')
+          tmp.pri_in = 5;
+        } else if (s[i] == '+' || s[i] == '-') {
+          tmp.pri_out = tmp.pri_in = 4;
+        } else if (s[i] == '*' || s[i] == '/')
           tmp.pri_out = tmp.pri_in = 3;
-        else if (s[i] == '*' || s[i] == '/')
-          tmp.pri_out = tmp.pri_in = 2;
         else if (s[i] == '^')
-          tmp.pri_out = tmp.pri_in = 1;
+          tmp.pri_out = tmp.pri_in = 2;
 
         // Adjust stack
         while (!operator_stack.empty() &&
-               operator_stack.top().pri_in <= tmp.pri_out) {
+               (operator_stack.top().pri_in <= tmp.pri_out)) {
           operator_t opt = operator_stack.top();
           operator_stack.pop();
-          if (opt.pri_in == 4) break;
+          if (opt.pri_in == 5) break;
+          if (opt.pri_in == 1) {
+            int opr1 = operand_stack.top();
+            operand_stack.pop();
+            operand_stack.push(opr1 * (-1));
+            continue;
+          }
+
           int opr1 = operand_stack.top();
           operand_stack.pop();
           int opr2 = operand_stack.top();
           operand_stack.pop();
-
           int res;
-          if (opt.pri_in == 3) {
+          if (opt.pri_in == 4) {
             res = opt.op == "+" ? opr2 + opr1 : opr2 - opr1;
-          } else if (opt.pri_in == 2) {
+          } else if (opt.pri_in == 3) {
             res = opt.op == "*" ? opr2 * opr1 : opr2 / opr1;
-          } else if (opt.pri_in == 1)
+          } else if (opt.pri_in == 2)
             res = myPow(opr2, opr1);
-
           operand_stack.push(res);
         }
-
+        num = 0;
         if (tmp.op != ")") operator_stack.push(tmp);
       }
     }
-    if (no_str != "") operand_stack.push(stoi(no_str));
+    if (num) operand_stack.push(num);
 
     return operand_stack.top();
   }
@@ -142,7 +155,9 @@ Reference: https://leetcode.com/problems/basic-calculator-ii/discuss/63003/Share
 
 Add recursions to deal with `()`.
 ```c++
+#include <iostream>
 #include <stack>
+using namespace std;
 int myPow(int base, int exp) {
   int res = 1, sign = 1;
   if (base < 0) {
@@ -159,34 +174,52 @@ class Solution {
     stack<int> stack;
     char sign = '+';
     int num = 0;
+    int num_flag = 0;
     for (int i = 0; i < s.length(); i++) {
       if (s[i] == ' ')  // space
         continue;
-      else if ('0' <= s[i] && s[i] <= '9')  // number
+      else if ('0' <= s[i] && s[i] <= '9'){  // number
         num = 10 * num + (s[i] - '0');
+        num_flag = 1;
+      }
       else if (s[i] == '(') {
-        for (int j = s.length() - 1; j < i; j--)
-          if (s[j] == ')') num = calculate(s.substr(i + 1, j - i - 1));
+        int count = 1;
+        for (int j = i+1; j <= s.length(); j++) {
+          if (s[j] == '(') count++;
+          else if (s[j] == ')') {
+            count--;
+            if (count == 0) {
+              num = calculate(s.substr(i + 1, j - i - 1));
+              i = j;
+              num_flag = 1;
+              break;
+            }
+          }
+        }
       } else {  // operator
-        if (sign == '+')
-          stack.push(num);
-        else if (sign == '-')
-          stack.push(-num);
-        else if (sign == '*') {
-          int tmp = stack.top();
-          stack.pop();
-          stack.push(tmp * num);
-        } else if (sign == '/') {
-          int tmp = stack.top();
-          stack.pop();
-          stack.push(tmp / num);
-        } else if (sign == '^') {
-          int tmp = stack.top();
-          stack.pop();
-          stack.push(myPow(tmp, num));
+        if (num_flag) {
+          if (sign == '+')
+            stack.push(num);
+          else if (sign == '-')
+            stack.push(-num);
+          else if (sign == '*') {
+            int tmp = stack.top();
+            stack.pop();
+            stack.push(tmp * num);
+
+          } else if (sign == '/') {
+            int tmp = stack.top();
+            stack.pop();
+            stack.push(tmp / num);
+          } else if (sign == '^') {
+            int tmp = stack.top();
+            stack.pop();
+            stack.push(myPow(tmp, num));
+          }
         }
         sign = s[i];
         num = 0;
+        num_flag = 0;
       }
     }
     int res = 0;
@@ -197,4 +230,5 @@ class Solution {
     return res;
   }
 };
+
 ```
