@@ -1,7 +1,7 @@
 # [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 
 ## 題目敘述
-輸入一串數字陣列，計算所有間隔間的容量總和，例如:
+輸入一串數字陣列，計算所有間隔間的容量總和，例如:<br>
 ![](https://i.imgur.com/KjOn5X2.png)
 ```
 Input: height = [0,1,0,2,1,0,1,3,2,1,2,1]
