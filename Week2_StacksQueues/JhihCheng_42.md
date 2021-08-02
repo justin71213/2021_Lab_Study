@@ -55,6 +55,78 @@ Runtime: 4 ms, faster than 90.45% of C online submissions for Trapping Rain Wate
 Memory Usage: 6.3 MB, less than 98.14% of C online submissions for Trapping Rain Water.
 ```
 
+## 實作Stack
+```c
+// Linked list結構
+typedef struct stacknode{
+    int num; //資料內容
+    struct stacknode* ptr; //底下那層的指標
+}stack;
+
+// Stack頂端
+struct stacknode *top;
+
+void push(int content){
+    stack *new_node = malloc(sizeof(stack));
+    new_node -> ptr = top;
+    new_node -> num = content;
+    top = new_node;
+
+}
+
+int pop(){
+    if(!top){
+        return -1;
+    }
+    stack* tmp = top;
+    int element = top -> num;
+    top = top -> ptr;
+    free(tmp);
+
+    return element;
+}
+
+int min(int a, int b){
+    if (a<b){
+        return a;
+    }
+    else{
+        return b;
+    }
+}
+
+int trap(int* height, int heightSize){
+
+    if(heightSize <= 0){return 0;}
+    int i;
+    int sum = 0;
+    int leftIndex=0;
+    top = NULL;
+    int rightIndex = heightSize -1;
+    
+    for(i = 0 ;i<heightSize ;i++){
+        if(height[leftIndex]<= height[i]){
+            leftIndex = i;
+        }
+        push((height[leftIndex] - height[i]));
+    }
+    
+    for(i = rightIndex ;i>=0 ;i--){
+        if(height[rightIndex]<= height[i]){
+            rightIndex = i;
+        }
+        sum+= min(height[rightIndex]-height[i],pop());
+    }
+    return sum;
+}
+
+```
+
+## 執行結果
+```
+Runtime: 4 ms, faster than 90.43% of C online submissions for Trapping Rain Water.
+Memory Usage: 7.4 MB, less than 11.44% of C online submissions for Trapping Rain Water.
+```
 ## 資料來源
 Leet code solution<br>
 [用C語言製作堆疊(Stack)](https://lakesd6531.pixnet.net/blog/post/332858496)<br>
