@@ -84,7 +84,7 @@ EX2.[Two Sum](https://leetcode.com/problems/two-sum/)
 ### Sorting
 * 8/2~8/8</br>
 - Exercise
-    - [HyperLink]()
+    - [164. Maximum Gap](https://leetcode.com/problems/maximum-gap/)
 ### String Manipulation
 * 8/9~8/15</br>
 - Exercise
