@@ -17,7 +17,11 @@ for new value{
     push to stack
 }  
 ```
+example1<br>
+![](https://github.com/justin71213/2021_Lab_Study/blob/XiangWei/Week2_StacksQueues/XiangWei_42/discription.png)
 ![](https://github.com/justin71213/2021_Lab_Study/blob/XiangWei/Week2_StacksQueues/XiangWei_42/flow1.png)
+example2<br>
+![](https://github.com/justin71213/2021_Lab_Study/blob/XiangWei/Week2_StacksQueues/XiangWei_42/flow2.png)
 ## code
 ```c
 struct Stack {
