@@ -65,32 +65,59 @@ EX2.[Two Sum](https://leetcode.com/problems/two-sum/)
 
 [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 ## 進度規劃(待討論)
-參加人員:李東恩、陳冠儒、鄧立昌、許家偉、陳致誠、吳佩芩、李祥瑋</br>
+參加人員: 李東恩、陳冠儒、鄧立昌、許家偉、陳致誠、吳佩芩、李祥瑋</br>
 [會議連結](https://meet.google.com/cky-emko-usd)
-* 7/19~7/25</br>
-Array
+### Array
+- 7/19~7/25
+- Exercise
+    - [LeetCode 41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
+    - [LeetCode 46. Permutations](https://leetcode.com/problems/permutations/)
+    - [LeetCode 11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
+
+### Stacks & Queues
 * 7/26~8/1</br>
-Dictionaries & Hashmaps
+- Exercise
+    - [LeetCode 227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)
+    - [LeetCode 42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
+    - [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
+
+### Sorting
 * 8/2~8/8</br>
-Sorting
+- Exercise
+    - [HyperLink]()
+### String Manipulation
 * 8/9~8/15</br>
-String Manipulation
+- Exercise
+    - [HyperLink]()
+### Greedy Algorithm
 * 8/16~8/22</br>
-Greedy Algorithm
+- Exercise
+    - [HyperLink]()
+### Search
 * 8/23~8/29</br>
-Search
+- Exercise
+    - [HyperLink]()
+### Dynamic Programming
 * 8/29~9/4</br>
-Dynamic Programming
+- Exercise
+    - [HyperLink]()
+### Dictionaries & Hashmaps
 * 9/5~9/11</br>
-Stacks Queues
+- Exercise
+    - [HyperLink]()
+### Graphs
 * 9/12~9/15(預計開學日)</br>
-Graphs
+- Exercise
+    - [HyperLink]()
 
 ## 讀書會記錄
-[Week0-草創討論與規劃](https://www.youtube.com/watch?v=XIGZLaiF77U)
+[Week0-草創討論與規劃](https://www.youtube.com/watch?v=XIGZLaiF77U)<br>
+[Week1-試水溫題目解法分享、git rebase](https://youtu.be/oE_1ZRz2XHQ)<br>
+[Week2-Week1題目解法分享](https://youtu.be/-f_uWpEQ2Ks)
 
 ## 其他資源
 [HackMD模板](https://hackmd.io/features-tw?view)</br>
 [HackMD圖示](https://graphviz.org/)</br>
 [Coding Interview University](https://github.com/jwasham/coding-interview-university)</br>
 [Hacker Rank](https://www.hackerrank.com/interview/interview-preparation-kit)
+[Learn Git Branching](https://learngitbranching.js.org/)
