@@ -85,6 +85,7 @@ EX2.[Two Sum](https://leetcode.com/problems/two-sum/)
 * 8/2~8/8</br>
 - Exercise
     - [164. Maximum Gap](https://leetcode.com/problems/maximum-gap/)
+    - [LeetCode 23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)
 ### String Manipulation
 * 8/9~8/15</br>
 - Exercise
