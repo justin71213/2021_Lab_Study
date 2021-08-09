@@ -15,9 +15,9 @@ class Solution:
         # recursive case
         else:
             n = len(lists) // 2 
-            left_sorted = self.mergeKLists(lists[:n])
-            right_sorted = self.mergeKLists(lists[n:])
-            combine_result = self.merge([left_sorted, right_sorted])
+            left = self.mergeKLists(lists[:n])
+            right = self.mergeKLists(lists[n:])
+            combine_result = self.merge([left, right])
             
             return combine_result
             
@@ -32,7 +32,7 @@ class Solution:
                 ans.append(lists[0].val)
                 if lists[0].val != None:
                     lists[0] = lists[0].next                
-            elif lists[0].val <= lists[1].val:
+            elif lists[0].val < lists[1].val:
                 ans.append(lists[0].val)
                 if lists[0].val != None:
                     lists[0] = lists[0].next
