@@ -4,7 +4,7 @@
 
 [Problem link](https://leetcode.com/problems/merge-k-sorted-lists/)
 
-**method 1:**
+**Method 1:** Merge sort
 
 ```python
 class Solution:
@@ -58,11 +58,16 @@ class Solution:
         return output
 ```
 
-**time:**
+**Result:**
 
 ![method 1](./pics/m1.png)
 
-**method 2:**
+| Time complexity | Space complexity |
+| :-------------: | :--------------: |
+|  $O(n\log{n})$  |  $O(n\log{n})$   |
+
+**Method 2:** Merge sort + pointer，概念與 method 1 一樣，
+但 merge 時不用再多宣告一個 list。
 
 [Code Source](https://leetcode.com/problems/merge-k-sorted-lists/discuss/10919/Python-easy-to-understand-divide-and-conquer-solution.)
 
@@ -97,15 +102,19 @@ class Solution:
         return dummy.next
 ```
 
-**time:**
+**Result:**
 
 ![method 2](./pics/m2.png)
+
+| Time complexity | Space complexity |
+| :-------------: | :--------------: |
+|  $O(n\log{n})$  |  $O(n\log{n})$   |
 
 ## 164. Maximum Gap
 
 [Problem link](https://leetcode.com/problems/maximum-gap/)
 
-**code:**
+**Code:** Merge sort
 
 ```python
 class Solution:
@@ -148,6 +157,10 @@ class Solution:
         return ans, max_val
 ```
 
-**time:**
+**Result:**
 
 ![method 2](./pics/23m1.png)
+
+| Time complexity | Space complexity |
+| :-------------: | :--------------: |
+|  $O(n\log{n})$  |  $O(n\log{n})$   |
