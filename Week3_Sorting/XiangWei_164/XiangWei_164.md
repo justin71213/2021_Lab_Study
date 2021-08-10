@@ -1,6 +1,6 @@
 # 164. Maximum Gap
 ## description
-
+![](https://github.com/justin71213/2021_Lab_Study/blob/XiangWei/Week3_Sorting/XiangWei_164/description.png)
 ## background
 1. comparison-based algorithm: at most O(nlogn)
   - insertion sort
@@ -84,6 +84,7 @@ public:
     }
 };
 ```
-
+## result
+![](https://github.com/justin71213/2021_Lab_Study/blob/XiangWei/Week3_Sorting/XiangWei_164/result.png)
 ## reference
 1.https://www.geeksforgeeks.org/bucket-sort-2/
