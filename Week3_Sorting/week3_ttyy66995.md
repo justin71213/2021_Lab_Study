@@ -31,13 +31,12 @@ public:
         for(auto i:lists){
             if(i != NULL)      
                 pq.push({i->val,i});
-                
+                //cout<<i->val<<i<<endl;        
         }
         
         if(pq.empty()){
             return NULL;
         }
-        
         
         while(!pq.empty()){
             auto top_node = pq.top();
@@ -49,9 +48,7 @@ public:
             if(top_node.second->next) {
                 pq.push({top_node.second->next->val,top_node.second->next});
             }
-        }
-         
-        return root->next;
+        } return root->next;
     }
 };
 
