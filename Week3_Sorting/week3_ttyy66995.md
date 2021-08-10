@@ -54,8 +54,9 @@ public:
 };
 ```
 **Complexity Analysis：**
-N：elemets in link-list
-k：the number of linked lists (elemets in priority queue)
-time：O( N logk )
-space：O(N+k)
+* N：elemets in link-list
+* k：the number of linked lists (elemets in priority queue)
+* time：O( N logk )
+* space：O(N+k)
+
 ![](https://i.imgur.com/mTNZZhz.png)
