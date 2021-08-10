@@ -22,7 +22,7 @@ class Solution:
 ![image](https://user-images.githubusercontent.com/69243911/128641027-07a8f55b-9d64-40df-b2f1-383fe7c89291.png)
 
 ### Code_2(bucketsort)
-[別人作法](https://ithelp.ithome.com.tw/articles/10201707)
+[來源](https://ithelp.ithome.com.tw/articles/10201707)
 * 準備桶子(最簡單的想法:設定最高值+1)
 * 分類成績(將成績一一讀取，並丟到相對應的桶子，有幾個就加幾個)
 * 讀取成績(依序讀取桶子裡的資料，當桶子的資料不為 0 的時候，表示在裡面有存放數字，接著將編號存回 data 裡面，看有幾個就存幾個)
@@ -55,7 +55,7 @@ class Solution:
 ![image](https://user-images.githubusercontent.com/69243911/128853169-33167ec7-9e60-47d7-85f8-768f0fd95cc1.png)
 
 ### Code_3(Radix Sort)
-[別人作法](https://stackabuse.com/radix-sort-in-python)
+[來源](https://stackabuse.com/radix-sort-in-python)
 ![image](https://user-images.githubusercontent.com/69243911/128853907-1e9040df-3e9d-4bb2-8d11-4ea3537680bb.png)
 ![image](https://user-images.githubusercontent.com/69243911/128853799-393fcfcc-5065-4dbb-a17e-2a7e22373375.png)
 ![image](https://user-images.githubusercontent.com/69243911/128853867-e7444aa9-68e5-463d-9af2-1b2589b4f6b7.png)
@@ -104,7 +104,7 @@ class Solution:
 ```
 ![image](https://user-images.githubusercontent.com/69243911/128853169-33167ec7-9e60-47d7-85f8-768f0fd95cc1.png)
 ### Code_4
-[別人作法](https://zhuanlan.zhihu.com/p/55000334)
+[來源](https://zhuanlan.zhihu.com/p/55000334)
 * 我們首先獲取數組的最小值mixnum和最大值maxnum，得到數組的範圍.
 * n個數有n-1個間隔，我們計算平均間隔gap：(maxnum-minnum)/n-1 向上取整.
 * 我們計算需要的桶的個數size = int((maxnum-minnum)/gap)+1個
