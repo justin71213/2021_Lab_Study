@@ -90,6 +90,7 @@ EX2.[Two Sum](https://leetcode.com/problems/two-sum/)
 * 8/9~8/15</br>
 - Exercise
     - [LeetCode 10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
+    - [1312. Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)
 ### Greedy Algorithm
 * 8/16~8/22</br>
 - Exercise
