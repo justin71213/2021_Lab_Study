@@ -65,7 +65,7 @@ EX2.[Two Sum](https://leetcode.com/problems/two-sum/)
 
 [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 ## 進度規劃(待討論)
-參加人員: 李東恩、陳冠儒、鄧立昌、許家偉、陳致誠、吳佩芩、李祥瑋</br>
+參加人員: 李東恩、陳冠儒、鄧立昌、許家偉、陳致誠、吳佩芩、李祥瑋、鍾其融</br>
 [會議連結](https://meet.google.com/cky-emko-usd)
 ### Array
 - 7/19~7/25
