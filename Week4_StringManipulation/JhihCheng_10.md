@@ -66,7 +66,7 @@ Explanation: c can be repeated 0 times, a can be repeated 1 time. Therefore, it 
 
 因此填入true，依序填完後回傳最後一個元素作為答案，代表檢查完所有S及P。
 ## 複雜度分析
-時間複雜度:O(mn)->s長\*p長
+時間複雜度:O(mn)->s長\*p長<br>
 空間複雜度:O(mn)
 
 ## 程式碼
