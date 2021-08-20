@@ -94,7 +94,7 @@ EX2.[Two Sum](https://leetcode.com/problems/two-sum/)
 ### Greedy Algorithm
 * 8/16~8/22</br>
 - Exercise
-    - [HyperLink]()
+    - [LeetCode 1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
 ### Search
 * 8/23~8/29</br>
 - Exercise
