@@ -69,9 +69,9 @@ int shipWithinDays(int* weights, int weightsSize, int days){
 時間複雜度:O(log(n)\*n)<br>
 空間複雜度:O(1)
 ## 運行結果
-Runtime: 36 ms(87.50%) ~ 40ms(62.5%)
+Runtime: 36 ms(87.50%) ~ 40ms(62.5%)<br>
 Memory Usage: 8.4 MB(100.00%) ~ 8.8(25%)
 ## 資料來源
 [C solution using binary search](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/discuss/335820/C-solution-using-binary-search)
-[6 questions in one template of binary search - for beginners! - python](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/discuss/819127/6-questions-in-one-template-of-binary-search-for-beginners!-python)
-[猩猩的乐园 Leetcode 1011 Capacity To Ship Packages Within D Days](https://www.youtube.com/watch?v=t2eQB9-EqPg)
+<br>[6 questions in one template of binary search - for beginners! - python](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/discuss/819127/6-questions-in-one-template-of-binary-search-for-beginners!-python)
+<br>[猩猩的乐园 Leetcode 1011 Capacity To Ship Packages Within D Days](https://www.youtube.com/watch?v=t2eQB9-EqPg)
