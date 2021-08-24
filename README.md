@@ -95,6 +95,7 @@ EX2.[Two Sum](https://leetcode.com/problems/two-sum/)
 * 8/16~8/22</br>
 - Exercise
     - [LeetCode 1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
+    - [LeetCode 452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)
 ### Search
 * 8/23~8/29</br>
 - Exercise
