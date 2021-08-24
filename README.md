@@ -115,10 +115,10 @@ EX2.[Two Sum](https://leetcode.com/problems/two-sum/)
 ## 讀書會記錄
 [Week0-草創討論與規劃](https://www.youtube.com/watch?v=XIGZLaiF77U)<br>
 [Week1-試水溫題目解法分享、git rebase](https://youtu.be/oE_1ZRz2XHQ)<br>
-[Week2-Week1題目解法分享](https://youtu.be/-f_uWpEQ2Ks)
-[Week3-Week2題目解法分享](https://youtu.be/C9Nkl3Y_ZoU)
-[Week4-Week3題目解法分享](https://youtu.be/4wf_uvEGH-0)
-[Week5-Week4題目解法分享](https://youtu.be/_HT9ZNce6TU)
+[Week2-Week1題目解法分享](https://youtu.be/-f_uWpEQ2Ks)<br>
+[Week3-Week2題目解法分享](https://youtu.be/C9Nkl3Y_ZoU)<br>
+[Week4-Week3題目解法分享](https://youtu.be/4wf_uvEGH-0)<br>
+[Week5-Week4題目解法分享](https://youtu.be/_HT9ZNce6TU)<br>
 
 ## 其他資源
 [HackMD模板](https://hackmd.io/features-tw?view)</br>
