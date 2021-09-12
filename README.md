@@ -5,14 +5,17 @@
 
 執行方式預想分成兩個部分，知識方面為了方便上手先提供中文的開放式課程一起學習，目前找到的資源有:
 
-* 資結</br>
+* 資結<br>
 [台大電機 于天立:計算機概論(C/C++)](http://ocw.aca.ntu.edu.tw/ntu-ocw/ocw/cou/101S210/10)</br>
 [陽交大資工 彭文志:資料結構(C++)](https://ocw.nctu.edu.tw/course_detail-v.php?bgid=9&gid=0&nid=412)</br>
 [Data-Structure-Algorithm-Programs](https://github.com/skjha1/Data-Structure-Algorithm-Programs)
 
-* 演算法</br>
+* 演算法<br>
 [台大電機 于天立:計算機概論(C/C++)](http://ocw.aca.ntu.edu.tw/ntu-ocw/ocw/cou/101S210/10)</br>
 [陽交大電子 江蕙如:演算法(C/C++)](https://ocw.nctu.edu.tw/course_detail.php?bgid=8&gid=0&nid=493)
+
+* 作業系統<br>
+[清大資工 周志遠:作業系統](https://www.youtube.com/watch?v=7EOttqasc5U&list=PL9jciz8qz_zyO55qECi2PD3k6lgxluYEV)
 
 以上資源以中文為主，之後會再找找其他國外資源，或是自行搜尋**極力募集不錯的資源**</br>
 
